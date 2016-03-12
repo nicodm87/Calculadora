@@ -1,0 +1,54 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container:before {
+    display: table;
+    content:" ";
+}
+
+.container:after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.row:after, .row:before /*pseudo selector, after para dps de X contenido,
+before para después de x contenido*/ {
+    clear: both; /* limpia tanto para before y after cualquier estilo*/
+    content: " "; /*agrega contenido por css, sirve para mantener limpio
+    el html, si lo que se agrega es más de estilo que de contenido*/
+    display: table; /*para que el objeto se comporte como tabla,
+    sin ser tabla, ya que los motores de búsqueda no los indexan*/
+}
+
+.col-1, .col-2, .col-3, .col4 {
+	float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-1 {
+    width: 25%;
+}
+
+.col-2{
+    width: 50%;
+}
+
+.col-3 {
+    width:75%;
+}
+
+.col-4 {
+    width:100%;
+}
+

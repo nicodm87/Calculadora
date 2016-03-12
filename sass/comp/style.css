@@ -1,0 +1,18 @@
+#calculator {
+  width: 280px; }
+  #calculator .visor {
+    background: #73DAEB;
+    color: white;
+    text-align: right;
+    font-size: 2em; }
+    #calculator .visor .equal {
+      padding-top: 20px;
+      text-align: center; }
+    #calculator .visor .result {
+      font-size: 2em;
+      padding-right: 0px;
+      padding-bottom: 10px; }
+    #calculator .visor .ecuation {
+      padding: 20px 20px 0px; }
+
+/*# sourceMappingURL=style.css.map */

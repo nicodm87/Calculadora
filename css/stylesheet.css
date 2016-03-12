@@ -1,0 +1,117 @@
+body {
+    font-size: 16px;
+}
+
+#calculator {
+    width: 280px;
+}
+
+.visor {
+  background: #73DAEB;
+  color: white;
+  text-align: right;
+  font-size: 2em;
+}
+
+.visor .equal {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.visor .result {
+    font-size: 2em;
+    padding-right: 0px;
+    padding-bottom: 10px;
+}
+
+.visor .ecuation {
+    padding:20px 20px 0px;
+}
+
+#numeros {
+    background-color: #4C4C4C;
+}
+
+#functions {
+    background-color: #666666;
+}
+
+button {
+    padding: 6px 12px;
+    margin: 0px;
+    font-size: 1.25em;
+    text-align: center;
+    cursor: pointer;
+    background-color: #4C4C4C;
+    border: 1px solid transparent; 
+    color: #fff;
+    border: none;
+    width: 67px;
+    height: 70px;
+    transition: background 0.5s;
+}
+
+button:hover {
+    background-color: #e9a060;
+}
+
+button:focus {
+    outline:none;
+}
+
+.button.btn-small {
+    height: 56px;
+    width: 70px;
+    background-color: #666;
+    transition: background 0.5s;
+}
+
+.button.btn-small:hover {
+    background-color: #e9c060;
+}
+
+.button.btn-small:focus {
+    outline: none;
+}
+
+	/*padding: 5px;
+	color: white;
+	overflow: auto;
+	text-align: right;
+	font-size: 30px;
+}
+
+.visor .row {
+	font-size: 1.7em;
+}
+
+.visor .row .col-1 {
+	width: 25%;
+	display: inline-block;
+	margin: none;
+	text-align: center;
+	float: left;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.visor .row .col-3 {
+	width: 75%;
+	display: inline-block;
+	margin: none;
+	text-align: right;
+	float: right;
+	font-size: 1em;
+}
+
+.row {
+	margin: auto;
+}
+
+.row .col-3 {
+	display: inline-block;
+}
+
+.row .col-1 {
+	display: inline-block;
+} */
